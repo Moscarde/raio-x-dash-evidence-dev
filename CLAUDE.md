@@ -7,7 +7,7 @@ O objetivo é criar dashboards, páginas analíticas e documentação navegável
 O projeto principal fica em:
 
 ```txt
-/home/moscarde/raio-x-engenharia
+/home/moscarde/codes/raio-x-engenharia
 ```
 
 Ele contém ingestão, Airflow, dbt, models, seeds, snapshots e demais regras de transformação dos dados.
@@ -52,7 +52,7 @@ Para entender os dados disponíveis, é permitido consultar:
 2. Os models dbt do projeto principal em:
 
 ```txt
-/home/moscarde/raio-x-engenharia
+/home/moscarde/codes/raio-x-engenharia
 ```
 
 Antes de criar uma nova página, query ou dashboard, verificar se já existe model, view, tabela ou documentação dbt adequada no projeto principal.
@@ -60,10 +60,10 @@ Antes de criar uma nova página, query ou dashboard, verificar se já existe mod
 Quando necessário, consultar arquivos como:
 
 ```txt
-/home/moscarde/raio-x-engenharia/models/
-/home/moscarde/raio-x-engenharia/dbt_project.yml
-/home/moscarde/raio-x-engenharia/README.md
-/home/moscarde/raio-x-engenharia/ROADMAP.md
+/home/moscarde/codes/raio-x-engenharia/models/
+/home/moscarde/codes/raio-x-engenharia/dbt_project.yml
+/home/moscarde/codes/raio-x-engenharia/README.md
+/home/moscarde/codes/raio-x-engenharia/ROADMAP.md
 ```
 
 Não inventar schemas, tabelas ou colunas. Sempre validar pelo banco ou pelos models dbt quando houver dúvida.
