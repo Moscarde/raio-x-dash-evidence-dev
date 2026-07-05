@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Evidence.dev
+node_modules/
+.evidence/template/
+.evidence/meta/
+.svelte-kit/
+build/
+static/data/
+*.options.yaml
+.vscode/settings.json

@@ -1,0 +1,63 @@
+appearance:
+  default: system
+  switcher: true
+
+# Paleta e tipografia seguem reference/Radar SUS.dc.html (identidade visual
+# Radar SUS Municipal). Azul institucional / azul dados / ciano destaque como
+# paleta categórica; verde/amarelo/vermelho como semântica de status
+# (meta atingida / atenção / crítico).
+theme:
+  colorPalettes:
+    default:
+      light:
+        - "#0B4F8A"
+        - "#1A7FC4"
+        - "#22B8CF"
+        - "#5A6B7C"
+        - "#0A2E4F"
+      dark:
+        - "#1A7FC4"
+        - "#22B8CF"
+        - "#0B4F8A"
+        - "#8DA0B3"
+        - "#5A6B7C"
+  colorScales:
+    default:
+      light:
+        - "#DCEBF7"
+        - "#0B4F8A"
+      dark:
+        - "#0A2E4F"
+        - "#22B8CF"
+  colors:
+    primary:
+      light: "#0B4F8A"
+      dark: "#1A7FC4"
+    accent:
+      light: "#22B8CF"
+      dark: "#22B8CF"
+    base:
+      light: "#ffffff"
+      dark: "#0A2E4F"
+    info:
+      light: "#1A7FC4"
+      dark: "#22B8CF"
+    positive:
+      light: "#1B9E4B"
+      dark: "#4ade80"
+    warning:
+      light: "#E6A817"
+      dark: "#fbbf24"
+    negative:
+      light: "#D64545"
+      dark: "#f87171"
+
+plugins:
+  components:
+    # This loads all of evidence's core charts and UI components
+    # You probably don't want to edit this dependency unless you know what you are doing
+    "@evidence-dev/core-components": {}
+
+  datasources:
+    # Apenas Postgres é usado neste projeto (ver README/CLAUDE.md — stack).
+    "@evidence-dev/postgres": { }
